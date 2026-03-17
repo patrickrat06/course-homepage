@@ -3,24 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Webiste</title>
+        <title>Website</title>
     </head>
-
     <body>
         <header>This is a website.</header>
         <nav>
             <a href="https://www.youtube.com/">Youtube</a> |
             <a href="https://www.w3schools.com/">W3schools</a> |
             <a href="https://github.com/">Github</a> |
-            <a href="contact.html">Contact</a>
+            <li><a href="contact.html">Contact</a></li>
         </nav>
-
         <main id="main-content">
             <section>
                 <h1>This is a Heading.</h1>
                 <p>This is a Paragraph.</p>
             </section>
-            
             <section>
                 <h2>
                     About me
@@ -30,20 +27,155 @@
                     I am in year 1 of computer science.
                     My goal for this course is to learn how websites work and how to make them.
                 </p>
-
             </section>
 
             <img src="https://static.vecteezy.com/system/resources/thumbnails/071/145/386/small/green-cartoon-bush-illustration-12345-vector.jpg" alt="An illustration of a light green bush on a white background.">
 
         </main>
+        
+        <table border="3">
+            <thead>
+                <tr>
+                    <th scope="col" colspan="3">Personal Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" rowspan="3">Programming</th>
+                    <td>Python</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td>C/C++</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="4">Design</th>
+                    <td colspan="2">Figma</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Illustrator</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Photoshop</td>
+                </tr>
+                <tr>
+                    <td colspan="2">UI/UX</td>
+                </tr>
+                <tr>
+                    <th scope="row">Other</th>
+                    <td colspan="2">Git</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        <table border="3">
+            <caption>Personal projects portfolio table</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Technologies</th>
+                    <th scope="col">Difficulty</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">ETC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Dive-Log</th>
+                    <td>A personal scuba diving journal for storing and organizing dive information.</td>
+                    <td>
+                        <ul>
+                            <li>C++</li>
+                            <li>CSV</li>
+                            <li>OOP</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Low</option>
+                            <option>Medium</option>
+                            <option selected>High</option>
+                        </select>
+                    </td>
+                    <td>
+                        <a href="https://github.com/" target="_blank">Repository</a>
+                    </td>
+                    <td>Personal software project</td>
+                </tr>
 
+                <tr>
+                    <th scope="row">Portfolio Website</th>
+                    <td>A simple personal website presenting my studies, hobbies, and projects.</td>
+                    <td>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Low</option>
+                            <option selected>Medium</option>
+                            <option>High</option>
+                        </select>
+                    </td>
+                    <td>
+                        <a href="https://github.com/" target="_blank">Live Demo</a>
+                    </td>
+                    <td rowspan="2">Web-related projects</td>
+                </tr>
 
+                <tr>
+                    <th scope="row">Task Manager</th>
+                    <td>A web app for managing daily tasks and deadlines.</td>
+                    <td>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Low</option>
+                            <option selected>Medium</option>
+                            <option>High</option>
+                        </select>
+                    </td>
+                    <td>
+                        <a href="https://github.com/" target="_blank">Repository</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Algorithms Notes</th>
+                    <td colspan="2">A structured collection of algorithm explanations and solved examples for study.</td>
+                    <td>
+                        <select>
+                            <option selected>Low</option>
+                            <option>Medium</option>
+                            <option>High</option>
+                        </select>
+                    </td>
+                    <td>
+                        <a href="https://github.com/" target="_blank">Repository</a>
+                    </td>
+                    <td>Study material</td>
+                </tr>
+            </tbody>
+        </table>
 
         <footer>Rat Patrick Roberto | Web Design | Semester 2
         </footer>
 
     </body>
 
-
 </html>
-
