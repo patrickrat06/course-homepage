@@ -1,0 +1,54 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    grid-template-areas: 
+        "header header"
+        "skills projects"
+        "contact contact";
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profile { grid-area: header; background: #003307; color: rgb(169, 229, 177); padding: 20px; border-radius: 8px; }
+.skills { grid-area: skills; background: #003222; padding: 20px; border-radius: 8px; }
+.projects { grid-area: projects; }
+.contact { grid-area: contact; text-align: center; border-top: 2px solid #ebffcd; padding-top: 20px; }
+
+
+.flex-skills {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 25px;
+}
+
+.flex-skills span {
+    background: #3498db;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background: rgb(196, 255, 195);
+}
+
+.featured {
+    background: #7fff3f;
+    border: 2px solid #216300;
+    transform: scale(1.02); 
+}
