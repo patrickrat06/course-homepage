@@ -12,7 +12,7 @@
 }
 
 .profile { grid-area: header; background: #003307; color: rgb(169, 229, 177); padding: 20px; border-radius: 8px; }
-.skills { grid-area: skills; background: #003222; padding: 20px; border-radius: 8px; }
+.skills { grid-area: skills; background: #003307; color: rgb(169, 229, 177); padding: 20px; border-radius: 8px; }
 .projects { grid-area: projects; }
 .contact { grid-area: contact; text-align: center; border-top: 2px solid #ebffcd; padding-top: 20px; }
 
@@ -24,7 +24,7 @@
 }
 
 .flex-skills span {
-    background: #3498db;
+    background: #39d386;
     color: white;
     padding: 5px 12px;
     border-radius: 20px;
